@@ -1,0 +1,31 @@
+ body { font-size: 62.5%; }
+        label, input { display:inline-block; }
+        
+        fieldset { padding:0; border:0; margin-top:25px; }
+        h1 { font-size: 1.2em; margin: .6em 0; }
+        div#temp-contain { width: 350px; margin: 20px 0; }
+        div#temp-contain table { margin: 1em 0; border-collapse: collapse; width: 100%; }
+        div#temp-contain table td, div#temp-contain table th { border: 1px solid #eee; padding: .6em 10px; text-align: left; }
+        .ui-dialog .ui-state-error { padding: .3em; }
+        .validateTips { border: 1px solid transparent; padding: 0.3em; }
+        #maindiv{		}
+		FIELDSET {
+		    margin-bottom: 25px;
+		    border: 2px solid silver;   
+		    border-radius: 4px; 
+		    width:350px;
+		    height: 100px;
+		}
+		LEGEND{
+		    padding: 2px;    
+		}
+		.colulist{
+			list-style: none;
+		}
+		.colulist li{display: inline-block;padding-right: 6px;}
+		#tempname{margin-bottom:20px;}
+		#sharename{float: right;margin-right: 80px;margin-bottom:10px;}
+		#add{margin-top: 12px;}
+		/*input.text {float: right; }*/
+		#valtit{margin-left:100px;}
+		#allowSpacesTags{width: 100px;height: 50px;}
