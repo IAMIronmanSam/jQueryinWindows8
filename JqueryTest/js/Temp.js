@@ -3,19 +3,11 @@ $(function() {
        //Pop Box Starts
     $(toStaticHTML("#dialog-form")).dialog({
             autoOpen: false,
-            height: 390,
-            width: 400,
+            height: 790,
+            width: 900,
             modal: true,
+            show: "blind",
             resizable:false,
-            buttons: {
-               
-           
-            Close: function() {
-                $( this ).dialog( "close" );
-            }
-            },
-            close: function() {
-            }
         });
  
     $(toStaticHTML( "#create-temp" ))

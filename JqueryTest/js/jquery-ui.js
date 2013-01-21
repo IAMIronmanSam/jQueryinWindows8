@@ -9905,14 +9905,10 @@ $.widget( "ui.dialog", {
 				}
 			}
 		});
-
-		this.uiDialogTitlebarClose = $("<button></button>")
+        /*Top Close Button */
+		this.uiDialogTitlebarClose = $("<button>X</button>")
 			.button({
-				label: this.options.closeText,
-				icons: {
-					primary: "ui-icon-closethick"
-				},
-				text: false
+				text: true
 			})
 			.addClass("ui-dialog-titlebar-close")
 			.appendTo( this.uiDialogTitlebar );
@@ -9923,7 +9919,7 @@ $.widget( "ui.dialog", {
 			}
 		});
 
-		uiDialogTitle = $("<span>")
+		uiDialogTitle = $("<span>Close</span>")
 			.uniqueId()
 			.addClass("ui-dialog-title")
 			.prependTo( this.uiDialogTitlebar );
