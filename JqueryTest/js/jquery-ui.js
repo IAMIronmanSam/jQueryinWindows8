@@ -9906,9 +9906,9 @@ $.widget( "ui.dialog", {
 			}
 		});
         /*Top Close Button */
-		this.uiDialogTitlebarClose = $("<button>X</button>")
+		this.uiDialogTitlebarClose = $(toStaticHTML("<button><b>X</b></button>"))
 			.button({
-				text: true
+			    text: true,
 			})
 			.addClass("ui-dialog-titlebar-close")
 			.appendTo( this.uiDialogTitlebar );

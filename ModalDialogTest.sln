@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "JqueryTest", "JqueryTest\JqueryTest.jsproj", "{E05A18E7-896A-49A7-A924-2867757FD9F2}"
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "ModalDialogTest", "JqueryTest\ModalDialogTest.jsproj", "{E05A18E7-896A-49A7-A924-2867757FD9F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
